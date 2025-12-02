@@ -26,7 +26,7 @@ pkg install python -y
 pip install requests colorama
 
 
-//Installation & Usage
+##Installation & Usage
 
 cd /storage/emulated/0
 rm -rf SCREAM-PSN-CHECKER && git clone https://github.com/fanoosmedia-a11y/SCREAM-PSN-CHECKER.git
@@ -34,7 +34,7 @@ cd SCREAM-PSN-CHECKER
 mv /storage/emulated/0/Download/Name.txt .        # put your combo here
 python checker.py
 
-// That’s it. Leave your phone charging – come back to hits.
+##That’s it. Leave your phone charging – come back to hits.
 
 Files
 Name.txt → your combo list (email:pass – one per line)
