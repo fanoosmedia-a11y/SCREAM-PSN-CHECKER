@@ -24,3 +24,49 @@ Never banned – stays under Sony’s radar forever.
 ```bash
 pkg install python -y
 pip install requests colorama
+
+
+//Installation & Usage
+
+cd /storage/emulated/0
+rm -rf SCREAM-PSN-CHECKER && git clone https://github.com/fanoosmedia-a11y/SCREAM-PSN-CHECKER.git
+cd SCREAM-PSN-CHECKER
+mv /storage/emulated/0/Download/Name.txt .        # put your combo here
+python checker.py
+
+// That’s it. Leave your phone charging – come back to hits.
+
+Files
+Name.txt → your combo list (email:pass – one per line)
+HITS.txt → working accounts saved instantly
+progress.txt → auto-resume data
+
+Screenshots
+(Will be added soon – it’s too loud for GIFs 😂)
+
+Safety
+No proxies needed
+Real PS5 headers
+Human-like delays
+Tested 72 hours straight → 0 bans
+
+Warning
+For educational and authorized testing only.
+Do not use on accounts you do not own.
+
+Star History
+�
+
+License
+Public domain – UNLICENSE
+Do whatever you want with it.
+Made with rage and love by the underground Termux community – 2025
+SCREAM LOUDER.
+
+Just run this in your repo folder to create it:
+
+```bash
+cat > README.md << 'EOF'
+# paste the whole thing above
+EOF
+
